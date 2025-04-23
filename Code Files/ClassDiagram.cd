@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access" MembersFormat="NameAndType">
+  <Class Name="Note">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAABAAAAEAAAAAEAAAAAAAAAAABAAAAEAAAEAAAA=</HashCode>
+      <FileName>Note.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpeciesOne">
+    <Position X="7.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kAAQEQQEEQIICCAABAAAABQhiAAAAAAAAAAQAAzgAAA=</HashCode>
+      <FileName>SpeciesOne.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpeciesTwo">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAAAAggAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SpeciesTwo.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExportToFile">
+    <Position X="14.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQIRAAAAQAAIAAAAAABEAAAAAAAAAAAAQUAAAAAABAA=</HashCode>
+      <FileName>ExportToFile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WritePhrase">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hACI1QCQAAAAAEAABAQECAAMAAAAEACBA4QAwAASQAI=</HashCode>
+      <FileName>WritePhrase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GenerateLowerVoice">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABEIAEAACAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>GenerateLowerVoice.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Phrase">
+    <Position X="13" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAACAQAAAAAQIBARECAAAAAAABAAAAAQACAAAQAA=</HashCode>
+      <FileName>Phrase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Species">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAEAIAAAAgAAAAAAAAIAAABgxAAABCAAAEAAAAAAJA=</HashCode>
+      <FileName>Species.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="NoteType">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAABAAAAAIAAA/BMAAAAIAP8CBAAAAAIAAAABAAA=</HashCode>
+      <FileName>Note.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

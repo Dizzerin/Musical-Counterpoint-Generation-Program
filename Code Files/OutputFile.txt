@@ -1,0 +1,43 @@
+\header {
+title = "Epic Title"
+composer = "Cool Composer"
+tagline = "Written By Caleb Nelson and Elliott Claus's Counterpoint Generation Program"
+}
+\paper {
+	system-system-spacing #'basic-distance = #16
+}
+
+
+% Phrase 1
+"topPhrase1" = { \clef "treble" \key c \major \time 2/4
+ c'4 g'4 b'4 g'4 b'4 c''4\bar "||" }
+"bottomPhrase1" = { \clef "treble" \key c \major \time 2/4
+ c'4 e'4 c'4 e'4 d'4 c'4}
+% Phrase 2
+"topPhrase2" = { \clef "treble" \key d \major \time 4/4
+ a'4 g'4 g'4 a'4 b'4 d'4 a'4 a'4 g'4 d'4 d'4 d'4 cis''4 e'4 cis''4 d''4\bar "||" }
+"bottomPhrase2" = { \clef "treble" \key d \major \time 4/4
+ d'4 e'4 b'4 fis'4 g'4 b'4 cis''4 d'4 e'4 fis'4 g'4 b'4 fis'4 cis''4 e'4 d'4}
+% Phrase 3
+"topPhrase3" = { \clef "treble" \key c \major \time 3/4
+ c'4 g'4 b'4 g'4 b'4 c''4\bar "||" }
+"bottomPhrase3" = { \clef "treble" \key c \major \time 3/4
+ c'4 e'4 c'4 a'4 d'4 c'4}
+\score {
+	<<
+		<<
+			\new Voice = "one" {
+				\"topPhrase1"
+				\"topPhrase2"
+				\"topPhrase3"
+			}
+			>>
+			\new Voice = "one" {
+				\"bottomPhrase1"
+				\"bottomPhrase2"
+				\"bottomPhrase3"
+			}
+	>>
+		\layout{}
+		\midi{}
+}
